@@ -1,6 +1,4 @@
-module "iam" {
-  source = "./modules/iam"
-}
+
 
 # Pass IAM roles to ECS and CodePipeline modules
 module "ecs" {
